@@ -3,14 +3,14 @@
   <a href="https://github.com/i-rin-eam">
     <img src="https://avatars.githubusercontent.com/u/154800878?s=400&u=5d18880cc28646190a19a971bfcdbc54644eab07&v=4" alt="Logo" width="100" height="100">
   </a> 
-<h1 align='center'>Sending Firebase Push Notifications from Server using the new FCM HTTP API v1</h1>
+<h2 align='center'>Send Firebase Push Notifications from Server using the new FCM HTTP v1 API</h12>
 </p>
 
 ## Step 1: Here is `firebase.php` code.
 ```php
 <?php
 
-// Include the OAuth helper functions
+// Include the get-access-token.php
 require 'get-access-token.php';
 
 // Path to your service account key file
